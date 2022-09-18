@@ -1,0 +1,21 @@
+@media all and (min-width: 750px){
+    .search-form{
+        box-shadow: 0px 0px 4px rgb(191, 188, 188);
+        padding: 0 1rem;
+        background:white;
+        border-radius: 3px;
+      
+        input{
+            border:none;
+            color: rgb(173, 172, 172);
+            outline: none;
+            width: 20rem;
+            height: 2.5rem; 
+            margin-left: 1rem;
+            background: none;
+            cursor: pointer;
+            font-size: 1rem;
+            // line-height: 1rem;
+        }
+      }
+}

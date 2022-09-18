@@ -1,10 +1,12 @@
 @import "settings";
+@import "flagsection";
+@import "media";
 
 body{
     background-color: rgb(245, 245, 245);
 }
 .header{
-    padding: 1rem 5%;
+    padding: 1rem 6%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,7 +14,8 @@ body{
     margin-bottom: 2rem ;
     line-height: 1.5;
     background:white;
-    box-shadow: 0px 4px 2px rgb(245, 245, 245) ;
+    box-shadow: 0px 0px 4px rgb(191, 188, 188);
+    min-width:300px ;
 
 
     .theme{
@@ -23,31 +26,73 @@ body{
         line-height: 1.5;
         // border: $border;
         gap:0.5rem;
+        i{
+            // color: white;
+        }
     }
 
 }
 
 .container{
-    padding: 0 5%;
+    padding: 0 6%;
+    min-width:300px ;
     form{
         display: flex;
         flex-direction: row;
+        // flex-direction: column;
         align-items: center;
         justify-content: space-between;
         // border: $border;
+        margin-bottom: 2rem ;
+
       .search-form{
-        // border: $border;
-        box-shadow: 0px 0px 4px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        box-shadow: 0px 0px 4px rgb(191, 188, 188);
         padding: 0 1rem;
         background:white;
+        border-radius: 3px;
+        // border: $border;
+        height: 50px;
+
+      
         input{
             border:none;
-            color: black;
+            color: rgb(173, 172, 172);
             outline: none;
             width: 20rem;
-            height: 2.5rem; 
-            margin-left: 2rem;
+            height: 100%; 
+            margin-left: 1rem;
             background: none;
+            cursor: pointer;
+            font-size: 1rem;
+            // line-height: 1rem;
+        }
+      }
+
+      select{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 50px;
+        border-radius: 3px;
+        text-align: center;
+        color:rgb(73, 69, 69);
+        width: 17rem;
+        // height: 2.5rem; 
+        background: white;
+        box-shadow: 0px 0px 4px rgb(191, 188, 188);
+        outline: none; border: none;
+        font-size: 1rem;
+        padding: 0 1rem;
+        cursor: pointer;
+
+        option{
+            border: none;
+            padding: 0 1rem;
+            text-align: left;
+           
         }
       }
     }
