@@ -8,7 +8,7 @@
     .card{
         // flex: 1 1 15rem;
         // border: $border;
-        box-shadow: 0px 0px 4px rgb(191, 188, 188);
+        box-shadow: 0px 0px 6px rgb(191, 188, 188);
         border-radius: 7px;
         overflow: hidden;
         display: flex;
@@ -17,10 +17,14 @@
         overflow: hidden;
         cursor: pointer;
 
+        &:hover{
+            transition: linear .2s ;
+            transform: scale(1.02);}
+
         .image{
             width: 100%;
             // border: $border;
-            height: 12rem;
+            height: 11rem;
            
             img{
 

@@ -1,0 +1,59 @@
+[
+    {
+        "name":"Algeria",
+        "flag":"img/Algeria-flag.png",
+        "population": "40,400,000",
+        "region":"Africa",
+        "capital":"Algiers"
+    },
+    {
+        "name":"Albania",
+        "flag":"img/Albania-flag.png",
+        "population": "3,400,000",
+        "region":"Europe",
+        "capital":"Tirana"
+    },
+    {
+        "name":"germany",
+        "flag":"img/german-flag.png",
+        "population": "30,400,000",
+        "region":"Europe",
+        "capital":"berlin"
+    },
+    {
+        "name":"United states of america",
+        "flag":"img/US-flag.png",
+        "population": "330,400,000",
+        "region":"America",
+        "capital":"washington"
+    },
+    {
+        "name":"Brazil",
+        "flag":"img/Brazil-flag.png",
+        "population": "300,000",
+        "region":"America",
+        "capital":"Brasiilia"
+    },
+    {
+        "name":"Iceland",
+        "flag":"img/Iceland-flag.png",
+        "population": "7,400,000",
+        "region":"Europe",
+        "capital":"Unknown"
+    },
+
+    {
+        "name":"Aland Island",
+        "flag":"img/Aland-flag.png",
+        "population": "432,400",
+        "region":"Europe",
+        "capital":"Mariehamn"
+    },
+    {
+        "name":"Afghanistan",
+        "flag":"img/Afghan-flag.png",
+        "population": "30,432,400",
+        "region":"Asia",
+        "capital":"Kabul"
+    }
+]

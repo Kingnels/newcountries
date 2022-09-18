@@ -12,7 +12,7 @@
   padding-bottom: 2rem;
 }
 .flags .card {
-  box-shadow: 0px 0px 4px rgb(191, 188, 188);
+  box-shadow: 0px 0px 6px rgb(191, 188, 188);
   border-radius: 7px;
   overflow: hidden;
   display: flex;
@@ -21,9 +21,13 @@
   overflow: hidden;
   cursor: pointer;
 }
+.flags .card:hover {
+  transition: linear 0.2s;
+  transform: scale(1.02);
+}
 .flags .card .image {
   width: 100%;
-  height: 12rem;
+  height: 11rem;
 }
 .flags .card .image img {
   width: 100%;
@@ -107,6 +111,10 @@ body {
   line-height: 1.5;
   gap: 0.5rem;
 }
+.header .theme i {
+  cursor: pointer;
+}
+
 .container {
   padding: 0 6%;
   min-width: 300px;
