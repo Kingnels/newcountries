@@ -34,8 +34,13 @@
   height: 100%;
 }
 .flags .card .detail {
-  padding: 1rem;
-  line-height: 1.5;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  line-height: 1.2;
+  font-size: smaller;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .flags .card .detail span {
   font-weight: 800;
