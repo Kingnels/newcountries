@@ -2,6 +2,16 @@
 let cardWrapper = document.getElementById('flags');
 let searchInput = document.getElementById('search');
 
+const preload = document.querySelector(".preloader")
+
+window.addEventListener("load", function (){
+    preload.classList.add("hide");
+})
+
+// window.addEventListener("load", function () {
+//     preloader.classList.add("hide-preloader");
+//   });
+
 function populate(){
     // fetch("countries.json", {mode:"cors"})
     fetch("https://restcountries.com/v3.1/all", {mode:"cors"})

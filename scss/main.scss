@@ -4,6 +4,26 @@
 
 body{
     background-color: rgb(245, 245, 245);
+    position: relative;
+}
+.preloader{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left:0;
+    bottom: 0;
+    background: white;
+    // background-image: linear-gradient( to right, rgba(174, 174, 174, 0.8), rgb(144, 144, 138));
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    visibility: visible;
+    z-index: 999;
+    transition: all 0.8s linear;
+}
+.hide{
+    visibility: hidden;
+    z-index: -100;
 }
 .header{
     padding: 1rem 6%;
