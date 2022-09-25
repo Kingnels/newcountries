@@ -4,9 +4,7 @@ let searchInput = document.getElementById('search');
 
 const preload = document.querySelector(".preloader")
 
-window.addEventListener("load", function (){
-    preload.classList.add("hide");
-})
+window.addEventListener("load", ()=>preload.classList.add("hide"));
 
 // window.addEventListener("load", function () {
 //     preloader.classList.add("hide-preloader");
